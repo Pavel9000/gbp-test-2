@@ -1,0 +1,104 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%)
+}
+
+.wrap__window {
+    width: 100%;
+    max-width: 650px;
+}
+
+.wrap__window h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.wrap__window__links {
+    width: 100%;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    border-top: solid 1px #fff;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.wrap__window__links__block {
+    width: 100%;
+    border-bottom: solid 1px #fff;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    flex-wrap: nowrap;
+}
+
+.wrap__window__links__block__elem {
+    margin: 0px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    flex: 3;
+    color: #fff;
+    padding: 5px;
+}
+
+
+.wrap__window__pagination {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.wrap__window__pagination__button {
+    width: 30px;
+    color: #fff;
+    border: solid 1px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+.wrap__window__pagination__button__active {
+    background: #382f9e;
+}
+
+
+.btnGoBack {
+    cursor: pointer;
+    position: fixed;    
+    top: 25px;
+    right: 25px;
+}
+.btnGoBack svg{
+    width: 32px;
+    height: 32px;
+}
+
+.error {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background: #ff9292;
+    color: #6f0000;
+    padding: 20px 40px;
+}
+
+.error button {
+    margin-left: 5px;
+    background: #474747;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+}

@@ -1,0 +1,19 @@
+.error {
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    background: #ff9292;
+    color: #6f0000;
+    padding: 20px 40px;
+}
+
+.error button {
+    margin-left: 5px;
+    background: #474747;
+    color: #fff;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    font-size: 15px;
+}
